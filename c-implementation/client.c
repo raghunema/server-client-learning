@@ -13,7 +13,7 @@
 int main(int argc, char *argv[]) {
 
     if (argc != 2) {
-        fprintf(stderr, "IP address required!\n");
+        fprintf(stderr, "IP address required! Maybe use 10.0.0.197 (beelink?)\n");
         return EXIT_FAILURE;
     }
 
